@@ -6,6 +6,7 @@ body, html{
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
 	color: #5a5a5a;
+	height: 100%;
 }
 
 h1{
@@ -47,20 +48,21 @@ p.intro{
 	line-height: 24px;
 	font-family: 'Open Sans', sans-serif;
 }
-a{ color: #FCAC45;}
+a{ color: #FFCC02;}
 a:hover,
 a:focus{
 	text-decoration: none;
-	color: #FCAC45;
+	color: #FFCC02;
 }
 
 .section-title hr{
-	border-color: #fcac45;
+	border-color: #FFCC02;
 	border-width: 4px;
 	width: 60px;
 	float: left;
 	clear: both;
 }
+
 .clearfix:after {
      visibility: hidden;
      display: block;
@@ -106,7 +108,7 @@ font-weight: 900;
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-	color: #FCAC45 !important;
+	color: #FFCC02 !important;
 	background-color: transparent;
 	font-weight: 700;
 }
@@ -116,8 +118,8 @@ font-weight: 900;
 	}
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-	background-color: #FCAC45;
-	border-color: #FCAC45;
+	background-color: #FFCC02;
+	border-color: #FFCC02;
 	}
 .navbar-default .navbar-toggle:hover>.icon-bar {
 	background-color: #FFF;
@@ -130,6 +132,7 @@ font-weight: 900;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	color: #cfcfcf;
+	height: 100%;
 }
 
 #tf-home .overlay{
@@ -140,11 +143,16 @@ font-weight: 900;
 	background: -ms-linear-gradient(top,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%); /* IE10+ */
 	background: linear-gradient(to bottom,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc000000', endColorstr='#66000000',GradientType=0 ); /* IE6-9 */
-	height: 750px;
 	background-attachment: fixed;
+	height: 100%;
 }
 #tf-home p.lead{
 	color: #e3e3e3;
+}
+
+centered{
+	display: inline;
+	clear: none;
 }
 
 .content{
@@ -153,7 +161,7 @@ font-weight: 900;
 }
 
 .color{
-	color: #fcac45;
+	color: #FFCC02;
 }
 
 a.fa.fa-angle-down {
@@ -166,13 +174,14 @@ a.fa.fa-angle-down {
 	transition: all 0.5s;
 }
 a.fa.fa-angle-down:hover{
-	background: #fcac45;
+	background: #FFCC02;
 	color: #ffffff;
-	border: 2px solid #fcac45;
+	border: 2px solid #FFCC02;
 }
 /* About Section */
 #tf-about{
 	padding: 80px 0;
+	height: 100%;
 }
 ul.about-list{ margin: 30px 0 0 ;}
 ul.about-list li{
@@ -193,6 +202,7 @@ ul.about-list li span{
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	color: #ffffff;
+	height: 60%;
 }
 #tf-team .overlay{
 	background: -moz-linear-gradient(top,  rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.73) 17%, rgba(0,0,0,0.66) 35%, rgba(0,0,0,0.55) 62%, rgba(0,0,0,0.4) 100%); /* FF3.6+ */
@@ -204,6 +214,7 @@ ul.about-list li span{
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc000000', endColorstr='#66000000',GradientType=0 ); /* IE6-9 */
 	height: auto;
 	background-attachment: fixed;
+	height: 100%;
 	padding: 80px 0;
 }
 .section-title.center{
@@ -214,7 +225,7 @@ ul.about-list li span{
 	font-weight: 300;
 }
 .section-title.center .line{
-	border-top: 4px solid #fcac45;
+	border-top: 4px solid #FFCC02;
 	height: 10px;
 	width: 60px;
 	text-align: center;
@@ -223,7 +234,7 @@ ul.about-list li span{
 }
 
 .section-title.center hr {
-	border-top: 4px solid rgba(252, 172, 69, 0.34);
+	border-top: 4px solid #D9AE00;
 	width: 40px;
 	text-align: center;
 	margin-top: 10px;
@@ -245,7 +256,7 @@ img.img-circle.team-img {
 	transition: all 0.5s;
 }
 #tf-team .item .thumbnail:hover>img.img-circle.team-img{
-	border: 4px solid #FCAC45;
+	border: 4px solid #FFCC02;
 }
 #tf-team .thumbnail {
 	background: transparent;
@@ -275,15 +286,16 @@ img.img-circle.team-img {
 .owl-theme .owl-controls.clickable .owl-page:hover span {
 	filter: Alpha(Opacity=100);
 	opacity: 1;
-	background: #FCAC45;
+	background: #FFCC02;
 }
 .owl-theme .owl-controls .owl-page.active span{
-	background: #FCAC45;
+	background: #FFCC02;
 }
 
 /* Services Section */
 #tf-services{
 	padding: 80px 0;
+	height: 100%;
 }
 
 .space{
@@ -292,7 +304,7 @@ img.img-circle.team-img {
 
 #tf-services i.fa {
 	font-size: 40px;
-	border: 4px solid #FCAC45;
+	border: 4px solid #FFCC02;
 	width: 100px;
 	height: 100px;
 	padding: 27px 25px;
@@ -307,7 +319,7 @@ img.img-circle.team-img {
 }
 
 #tf-services .service:hover>i.fa{
-	background: #FCAC45;
+	background: #FFCC02;
 	color: #ffffff;
 }
 
@@ -319,6 +331,7 @@ img.img-circle.team-img {
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	color: #ffffff;
+	height: 100%;
 }
 
 #tf-clients .overlay{
@@ -339,6 +352,48 @@ img.img-circle.team-img {
     color: #FFF;
     text-align: center;
 }
+
+/* Projects Section */
+#tf-projects{
+	padding: 80px 0;
+	background: url(../img/666.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	color: #ffffff;
+	height: 100%;
+}
+
+.space{
+	margin-top: 40px;
+}
+
+.small-space{
+	margin-top: 20px;
+}
+
+#tf-projects i.fa {
+	font-size: 40px;
+	border: 4px solid #FFCC02;
+	width: 100px;
+	height: 100px;
+	padding: 27px 25px;
+	margin-bottom: 10px;
+	border-radius: 50%;
+	transition: all 0.5s;
+}
+
+#tf-projects i.fa.fa-mobile{
+	font-size: 50px;
+	padding: 20px 25px;
+}
+
+#tf-projects .service:hover>i.fa{
+	background: #FFCC02;
+	color: #ffffff;
+}
+
 /* Gallery Section
 ==============================*/
 #tf-works{
@@ -443,12 +498,13 @@ ol.type li a.active { font-weight: 700; }
 #tf-works i.fa {
 	height: 30px;
 	width: 30px;
-	border: 1px solid #FCAC45;
+	border: 1px solid #FFCC02;
 	font-size: 20px;
 	padding: 5px;
 	border-radius: 50%;
-	color: #FCAC45;
+	color: #FFCC02;
 }
+
 /* Testimonials Section */
 #tf-testimonials{
 	background: url(../img/222.jpg);
@@ -522,7 +578,7 @@ label {
 
 button.btn.tf-btn.btn-default {
 	float: right;
-	background: #FCAC45;
+	background: #FFCC02;
 	border: 0;
 	border-radius: 0;
 	padding: 10px 40px;
@@ -545,7 +601,6 @@ button.btn.tf-btn.btn-default {
 .btn.active.focus {
 	outline: thin dotted;
 	outline: none;
-	outline-offset: none;
 }
 /* Footer */
 nav#footer{
@@ -573,7 +628,7 @@ nav#footer p{
 	transition: all 0.5s;
 }
 #footer i.fa:hover {
-	background: #FCAC45;
-	border-color: #FCAC45;
+	background: #FFCC02;
+	border-color: #FFCC02;
 	color: #ffffff;
 }
