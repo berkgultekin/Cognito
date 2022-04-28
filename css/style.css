@@ -129,7 +129,8 @@ font-weight: 900;
 	background: url(../img/77.jpg);
 	background-position: center;
 	background-repeat: repeat-y;
-	background-size:100%;
+	background-size: cover;
+	height: 100%;
 	width:100%;
 	color: #cfcfcf;
 }
