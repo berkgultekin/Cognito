@@ -348,6 +348,7 @@ img.img-circle.team-img {
 #tf-team .thumbnail {
     background: transparent;
     border: 0;
+    width: 30%;
 }
 
 #tf-team .thumbnail .caption {
