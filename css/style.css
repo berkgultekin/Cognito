@@ -387,7 +387,8 @@ img.img-circle.team-img {
 }
 
 .service-style {
-    height: 300px;
+    height: 35%;
+    margin-bottom: 10px;
 }
 
 .space {
