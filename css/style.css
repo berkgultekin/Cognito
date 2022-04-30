@@ -172,7 +172,7 @@ ul, ol {
 
 @media only screen and (max-width: 480px) {
     .logo-image {
-        width: 80%;
+        width: 90%;
     }
 
     .slogan-text-font-size {
@@ -230,7 +230,7 @@ centered {
 
 .content {
     position: relative;
-    padding: 20% 0 0;
+    padding: 5% 0 0;
 }
 
 .color {
@@ -248,6 +248,25 @@ a.fa.fa-angle-down {
 }
 
 a.fa.fa-angle-down:hover {
+    background: #FFCC02;
+    color: #ffffff;
+    border: 2px solid #FFCC02;
+}
+
+a.fa.fa-angle-up {
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    padding: 10px 15px;
+    color: #FFCC02;
+    border: 2px solid #b4b4b4;
+    border-radius: 50%;
+    font-size: 24px;
+    margin-top: 200px;
+    transition: all 0.5s;
+}
+
+a.fa.fa-angle-up:hover {
     background: #FFCC02;
     color: #ffffff;
     border: 2px solid #FFCC02;
@@ -279,7 +298,6 @@ ul.about-list li span {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 80%;
     color: #ffffff;
 }
 
@@ -388,7 +406,7 @@ img.img-circle.team-img {
 
 .service-style {
     height: 35%;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 
 .space {
