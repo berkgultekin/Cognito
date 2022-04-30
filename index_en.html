@@ -6,11 +6,14 @@
     <meta charset="utf-8">
     <!--[if IE]>
     <meta http-equiv="x-ua-compatible" content="IE=9"/><![endif]-->
-    <!--<meta name="viewport" content="initial-scale=1, maximum-scale=1">-->
-    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Cognito - Software and Solutions</title>
     <link rel="icon" type="image/png" href="./img/cognito_sembol.png">
-
+    <meta name="description"
+          content="Cognito is a Digital agency one page template built based on bootstrap framework. This template is design by Robert Berki and coded by Jenn Pereira. It is simple, mobile responsive, perfect for portfolio and agency websites. Get this for free exclusively at ThemeForces.com">
+    <meta name="keywords"
+          content="bootstrap theme, portfolio template, digital agency, onepage, mobile responsive, Cognito, free website, free theme, themeforces themes, themeforces wordpress themes, themeforces bootstrap theme">
+    <meta name="author" content="ThemeForces.com">
 
     <!-- Favicons
     ================================================== -->
@@ -62,22 +65,22 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="index.html">Cognito</a>
+            <a class="navbar-brand" href="index_en.html">Cognito</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#tf-home" class="page-scroll">Anasayfa</a></li>
-                <li><a href="#tf-services" class="page-scroll">Servisler</a></li>
-                <li><a href="#tf-team" class="page-scroll">Takım</a></li>
-                <li><a href="#tf-about" class="page-scroll">Hakkımızda</a></li>
-                <li><a href="#tf-projects" class="page-scroll">Projelerimiz</a></li>
-                <li><a href="#tf-contact" class="page-scroll">İletişim</a></li>
-                <li><a href="index.html"><img src="./img/united-kingdom.png" width="15px" height="15px"> </img></a></li>
-                <li><a href="indextr.html"><img src="./img/turkey.png" width="15px" height="15px"> </img></a></li>
+                <li><a href="#tf-home" class="page-scroll">Home</a></li>
+                <li><a href="#tf-services" class="page-scroll">Services</a></li>
+                <li><a href="#tf-team" class="page-scroll">Team</a></li>
+                <li><a href="#tf-about" class="page-scroll">About</a></li>
+                <li><a href="#tf-projects" class="page-scroll">Projects</a></li>
+                <li><a href="#tf-contact" class="page-scroll">Contact</a></li>
+                <li><a href="index_en.html"><img src="./img/united-kingdom.png" width="15px" height="15px"> </img></a>
+                </li>
+                <li><a href="index.html"><img src="./img/turkey.png" width="15px" height="15px"> </img></a></li>
             </ul>
-
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
 </nav>
@@ -87,17 +90,16 @@
 <div id="tf-home" class="text-center">
     <div class="overlay">
         <div class="content">
-            <img src="./img/cognito_logo.png" width="30%" height="30%"/>
+            <img class="logo-image" src="./img/cognito_logo.png"/>
             <div id="slogan" style="display:flex; justify-content:center; align-items:center;">
-                <h5 style="display: inline; white-space: break-spaces">SIC </h5>
-                <span class="fa fa-circle-dot" style="font-size: 8px; color: #B79200"></span>
-                <h5 style="display: inline; white-space: break-spaces"> PARVIS </h5>
-                <span class="fa fa-circle-dot" style="font-size: 8px; color: #B79200"></span>
-                <h5 style="display: inline; white-space: break-spaces"> MAGNA</h5>
+                <h5 class="slogan-text-font-size">SIC </h5>
+                <span class="fa fa-circle-dot slogan-dot-font-size" ></span>
+                <h5 class="slogan-text-font-size"> PARVIS </h5>
+                <span class="fa fa-circle-dot slogan-dot-font-size"></span>
+                <h5 class="slogan-text-font-size"> MAGNA</h5>
             </div>
-
-            <a href="#tf-services" class="fa fa-angle-down page-scroll"></a>
         </div>
+        <a href="#tf-services" class="fa fa-angle-down page-scroll" style="position: absolute; bottom: 80px"></a>
     </div>
 </div>
 
@@ -107,7 +109,7 @@
 <div id="tf-services" class="text-center">
     <div class="container">
         <div class="section-title center">
-            <h2><strong>Servislerimiz</strong></h2>
+            <h2>Take a look at <strong>our services</strong></h2>
             <div class="line">
                 <hr>
             </div>
@@ -117,38 +119,42 @@
         <div class="center">
             <div class="row">
 
-                <div class="col-md-12 col-sm-12 col-lg-4 service">
-                  <i class="fa fa-solid fa-code"></i>
-                  <h4><strong>Sistem Çözümleri</strong></h4>
-                  <p>İhtiyaç analizi, arayüz tasarımı, işletme senaryolarının belirlenmesi ve entegrasyon çözümleri</p>
+                <div class="col-lg-4 col-md-12 col-sm-12 service">
+                    <i class="fa fa-solid fa-code"></i>
+                    <h4><strong>System Solution</strong></h4>
+                    <p>Requirement analysis, interface design, determination of business scenarios and integration
+                        solutions</p>
                 </div>
 
-                <div class="col-md-12 col-sm-12 col-lg-4 service">
-                  <i class="fa fa-solid fa-laptop-code"></i>
-                  <h4><strong>Yazılım Geliştirme</strong></h4>
-                  <p>Gereksinim analizi, yazılım mimari tasarımı, frontend ve backend yazılım çözümleri,
-                      web ve mobil uygulama geliştirme
-                  </p>
+                <div class="col-lg-4 col-md-12 col-sm-12 service">
+                    <i class="fa fa-solid fa-laptop-code"></i>
+                    <h4><strong>Software Development</strong></h4>
+                    <p>Requirements analysis, software architecture design, frontend and backend software solutions, web
+                        and
+                        mobile application development</p>
                 </div>
-                <div class="col-md-12 col-sm-12 col-lg-4 service">
-                  <i class="fa fa-solid fa-circle-nodes"></i>
-                  <h4><strong>Yapay Zeka Çözümleri</strong></h4>
-                  <p>İhtiyaç duyulan problemlerde yapay zeka çözümleri ve var olan projelere yapay zeka desteği </p>
+                <div class="col-lg-4 col-md-12 col-sm-12 service">
+                    <i class="fa fa-solid fa-circle-nodes"></i>
+                    <h4><strong>Artificial Intelligence Solution</strong></h4>
+                    <p>Artificial intelligence solutions for needed problems and artificial intelligence support for
+                        existing projects</p>
                 </div>
             </div>
 
             <div class="small-space"></div>
 
-            <div class="col-md-12 col-sm-12 col-lg-6 service">
-              <i class="fa fa-mobile"></i>
-              <h4><strong>Yazılım Test</strong></h4>
-              <p>Yeni ve devam eden  yazılım projelerinde test senaryolarının hazırlanması, test altyapısı geliştirilmesi ve test sonuçlarının raporlanması</p>
+            <div class="col-lg-4 col-md-12 col-sm-12 service">
+                <i class="fa fa-mobile"></i>
+                <h4><strong>Software Test</strong></h4>
+                <p>Preparation of test scenarios, development of test infrastructure and reporting of test results
+                    in
+                    new and ongoing software projects</p>
             </div>
 
-            <div class="col-md-12 col-sm-12 col-lg-6 service">
-              <i class="fa fa-handshake-o"></i>
-              <h4><strong>Danışmanlık</strong></h4>
-              <p>Teknoloji ve alan bilgisi gerektiren yazılım projelerinde danışmanlık hizmeti</p>
+            <div class="col-lg-4 col-md-12 col-sm-12 service">
+                <i class="fa fa-handshake-o"></i>
+                <h4><strong>Consultancy</strong></h4>
+                <p>Consultancy services for software projects that need domain and technological understanding</p>
             </div>
 
         </div>
@@ -161,7 +167,7 @@
     <div class="overlay">
         <div class="container">
             <div class="section-title center">
-                <h2><strong>Takımımızla</strong> tanışın </h2>
+                <h2>Meet <strong>our team</strong></h2>
                 <div class="line">
                     <hr>
                 </div>
@@ -174,7 +180,7 @@
                         <img src="img/team/cemal.jpeg" alt="..." class="img-circle team-img">
                         <div class="caption">
                             <h3>Cemal Samur</h3>
-                            <p>Kurucu Ortak</p>
+                            <p>Co-Founder</p>
                         </div>
                     </div>
                 </div>
@@ -184,7 +190,7 @@
                         <img src="img/team/hasan.jpeg" alt="..." class="img-circle team-img">
                         <div class="caption">
                             <h3>Hasan Ali Duran</h3>
-                            <p>Kurucu Ortak</p>
+                            <p>Co-Founder</p>
                         </div>
                     </div>
                 </div>
@@ -194,7 +200,7 @@
                         <img src="img/team/berk.jpeg" alt="..." class="img-circle team-img">
                         <div class="caption">
                             <h3>Yasin Berk Gültekin</h3>
-                            <p>Kurucu Ortak</p>
+                            <p>Co-Founder</p>
                         </div>
                     </div>
                 </div>
@@ -213,16 +219,19 @@
         <div class="column">
             <div class="col-md-6" style="margin-bottom: 10%;">
                 <div class="section-title">
-                    <h2><strong>Hakkımızda</strong></h2>
+                    <h2><strong>Journey</strong></h2>
                     <hr>
                     <div class="clearfix"></div>
                 </div>
                 <div style="display:flex; justify-content:center; align-items:center;">
                     <img src="./img/cognito_sembol.png" width="25%" height="25%"
                          style="float: left; margin-right: 10px"/>
-                    <p class="intro">Cognito, <strong>ismini</strong> Latince biliş, bilmek  anlamlarından almıştır.
-                       Logodaki C’nin parçalı yapısı, parçadan bütüne yaklaşımımızı; parçaların üçgen seçilmesi ise bilim, araştırma  ve teknolojinin esas olmasını temsil etmektedir.
-                    </p>
+                    <p class="intro">The <strong>name</strong> comes from the Latin meaning of cognitive and to
+                        know.
+                        The fragmented
+                        structure of C in our logo symbols our approach from the piece to the whole; the triangular
+                        parts
+                        represents the three main aspects of this corporate: science, research and technology.</p>
                 </div>
 
                 <div class="space"></div>
@@ -230,8 +239,8 @@
                 <div style="display:flex; justify-content:center; align-items:center;">
                     <img src="./img/sicparvismagna.jpg" width="25%" height="25%"
                          style="float: left; margin-right: 10px"/>
-                    <p class="intro"><strong>Sloganımız</strong> SIC PARVIS MAGNA ise mükemmellik/büyüklük küçük başlangıçlarla ortaya çıkar
-                    anlamına gelmektedir. </p>
+                    <p class="intro">The <strong>slogan</strong> SIC PARVIS MAGNA means greatness is created with small
+                        beginnings</p>
                 </div>
 
                 <div class="space"></div>
@@ -239,9 +248,10 @@
                 <div style="display:flex; justify-content:center; align-items:center;">
                     <img src="./img/hexagon.png" width="25%" height="25%"
                          style="float: left; margin-right: 10px"/>
-                    <p class="intro"><strong>Vizyonumuz</strong> ise altı önemli değerin birleşimidir.
-                      Zira inanıyoruz ki, bunlar en iyiye ulaşmanın anahtarlarıdır.
-                      Ve bilgi, teknoloji ve vizyonumuz ile harmanlanan çözümlerimiz alandaki açığı giderecek, bize keyifli bir serüven sunacaktır.
+                    <p class="intro">The <strong>vision</strong> is the combination of six important values. We believe
+                        that these values
+                        are the keys to reach the best and our solutions blended with our knowledge, technology and
+                        vision will fill the gap in the field and offer us a pleasant adventure.
                     </p>
                 </div>
 
@@ -250,18 +260,18 @@
             <div class="col-md-6">
                 <div class="about-text">
                     <div class="section-title">
-                        <h2><strong>Misyon</strong></h2>
+                        <h2><strong>Mission</strong></h2>
                         <hr>
                         <div class="clearfix"></div>
                     </div>
-                    <p class="intro">Güncel teknoloji ve alan bilgisi kullanarak ulusal ve küresel karmaşık problemlere,
-                       yalın ve kaliteli yazılım çözümleri geliştirmek</p>
+                    <p class="intro">To develop lean and high-quality software solutions for national and global complex
+                        problems; using domain knowledge and cutting-edge technologies</p>
                 </div>
 
                 <div class="space"></div>
 
                 <div class="section-title">
-                    <h2><strong>Vizyon</strong></h2>
+                    <h2><strong>Vision</strong></h2>
                     <hr>
                     <div class="clearfix"></div>
                 </div>
@@ -271,18 +281,19 @@
                         <div class="col-md-6 col-sm-12 service" style="margin-bottom: 5%;">
                             <li>
                                 <span class="fa fa-handshake"></span>
-                                <strong style="font-size:18px">Ortaklık Bakış Açısı</strong>
+                                <strong style="font-size:18px">Partnership Perspective</strong>
                             </li>
-                            <i style="font-size:18px">Değer yaratmak ve karmaşık problemleri çözmek için; müşteriler,
-                               tedarikçiler ve iş ortaklarından oluşan bir ağ oluşturmak.</i>
+                            <i style="font-size:18px">Unite a distributed network of customers,
+                                suppliers and partners; together we create value and solve complex problems.</i>
                         </div>
 
                         <div class="col-md-6 col-sm-12 service" style="margin-bottom: 5%;">
                             <li>
                                 <span class="fa fa-person-rays"></span>
-                                <strong style="font-size:18px">Çalışan Odaklılık</strong>
+                                <strong style="font-size:18px">People Orientedness</strong>
                             </li>
-                            <i style="font-size:18px">İnsanların kendi en iyileri olmak için ilham aldıkları harika bir çalışma ortamı sunmak.</i>
+                            <i style="font-size:18px">Be a great place to work where people are
+                                inspired to do their best.</i>
                         </div>
                     </div>
 
@@ -292,18 +303,21 @@
                         <div class="col-md-6 col-sm-12 service" style="margin-bottom: 5%;">
                             <li>
                                 <span class="fa-solid fa-puzzle-piece"></span>
-                                <strong style="font-size:18px">Bütüncül Yaklaşım</strong>
+                                <strong style="font-size:18px">Holism</strong>
                             </li>
-                            <i style="font-size:18px">Alan bilgisi ve tecrübesi ile kompleks problemlere bütüncül bakabilen,
-                               kolay entegre olunabilir bir yazılım çözüm ortağı olmak.</i>
+                            <i style="font-size:18px">Be an easily workable, integratable software
+                                solutions-developing partner that approaches the problem holistically with domain
+                                knowledge.</i>
                         </div>
 
                         <div class="col-md-6 col-sm-12 service" style="margin-bottom: 5%;">
                             <li>
                                 <span class="fa fa-star"></span>
-                                <strong style="font-size:18px">Yüksek Kalite</strong>
+                                <strong style="font-size:18px">High Quality</strong>
                             </li>
-                            <i style="font-size:18px">Yüksek kaliteli bir yazılım şirketi olmak ve öyle anılmak. </i>
+                            <i style="font-size:18px">Be and be recognized as a very high-quality
+                                software
+                                company. </i>
                         </div>
                     </div>
 
@@ -313,17 +327,19 @@
                         <div class="col-md-6 col-sm-12 service" style="margin-bottom: 5%;">
                             <li>
                                 <span class="fa fa-brain"></span>
-                                <strong>Zeka</strong>
+                                <strong>Intelligence</strong>
                             </li>
-                            <i style="font-size:18px">Kullanıcılara karar verme, tahminleme ve planlamada destek olacak akıllı algoritmaların kullanımını öne çıkarmak.</i>
+                            <i style="font-size:18px">Empower intelligent algorithms in software to
+                                support
+                                users with decision-making, predicting and planning whenever possible.</i>
                         </div>
 
                         <div class="col-md-6 col-sm-12 service" style="margin-bottom: 5%;">
                             <li>
                                 <span class="fa-solid fa-jet-fighter"></span>
-                                <strong>Çeviklik</strong>
+                                <strong>Agility</strong>
                             </li>
-                            <i style="font-size:18px">Çevik manifesto ve çevik en değerleri benimsemek.</i>
+                            <i style="font-size:18px">Embrace agile manifesto and agile values.</i>
                         </div>
                     </div>
 
@@ -369,7 +385,7 @@
     <div class="overlay">
         <div class="container">
             <div class="section-title center">
-                <h2>Geçmiş <strong>projelerimiz</strong></h2>
+                <h2>Take a look at <strong>our projects</strong></h2>
                 <div class="line">
                     <hr>
                 </div>
@@ -378,48 +394,56 @@
             <div class="space"></div>
             <div class="center">
 
-                    <div class="col-md-6 col-sm-12 col-lg-4 service">
+                    <div class="col-lg-4 col-md-6 col-sm-12 service">
                         <i class="fa fa-solid fa-sitemap"></i>
-                        <h4><strong>Komuta Kontrol</strong></h4>
-                        <p>Hava Savunma Komuta Kontrol</p>
-                        <p>Hava Savunma Atış Kontrol</p>
-                        <p>Ateş Destek Komuta Kontrol</p>
-                        <p>Ateş Destek Atış Kontrol</p>
+                        <h4><strong>Command and Control</strong></h4>
+                        <p>Air Defense Command and Control</p>
+                        <p>Air Defense Fire Control</p>
+                        <p>Fire Support Command and Control</p>
+                        <p>Fire Support Fire Control</p>
                     </div>
 
-                    <div class="col-md-6 col-sm-12 col-lg-4 service">
+                    <div class="col-lg-4 col-md-6 col-sm-12 service">
                         <i class="fa fa-solid fa-circle-nodes"></i>
-                        <h4><strong>Makine Öğrenmesi</strong></h4>
-                        <p>Geçmiş verileri kullanarak trafik tahminleri yapmak</p>
-                        <p>Radarlardan gelen verileri kullanarak anomali tespiti ve sınıflandırma yapmak</p>
-                        <p>Sınıflandırma güven değerlerini artırmak için verileri yeniden oluşturmak</p>
-                    </div>
-                    <div class="col-md-12 col-sm-12 col-lg-4 service">
-                        <i class="fa fa-globe"></i>
-                        <h4><strong>Uluslararası Projeler</strong></h4>
-                        <p>ASCA çalışmaları</p>
-                        <p>S4(NABK vb.) çalışmaları</p>
-                        <p>LINK arayüzü üzerinden haberleşme</p>
-                        <p>LLAPI arayüzü üzerinden haberleşme</p>
+                        <h4><strong>Machine Learning</strong></h4>
+                        <p>Making traffic forecasts using historical data</p>
+                        <p>Anomaly detection and classification using data from radars</p>
+                        <p>Reconstructing data to increase classification confidence values</p>
                     </div>
 
-                    <div class="col-md-6 col-sm-12 col-lg-6 service">
+                    <div class="col-lg-4 col-md-6 col-sm-12 service">
+                        <i class="fa fa-globe"></i>
+                        <h4><strong>International Projects</strong></h4>
+                        <p>ASCA studies</p>
+                        <p>S4 (NABK etc.) studies</p>
+                        <p>Communication via LINK interface</p>
+                        <p>Communication via LLAPI interface</p>
+                    </div>
+
+
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 service">
                         <i class="fa fa-mobile"></i>
-                        <h4><strong>Mobil Uygulama</strong></h4>
-                        <p>Artırılmış gerçeklik desteği, canlı veri paylaşımı, farklı sensör entegrasyonları ile geliştirilmiş arama kurtarma uygulaması</p>
-                        <p>Cross-platform, kullanıcı dostu topluluk rezervasyon ve ödeme uygulaması</p>
+                        <h4><strong>Mobile Application</strong></h4>
+                        <p>Enhanced search and rescue application with augmented reality support, live data sharing,
+                            different sensor integrations</p>
+                        <p>Cross-platform, user-friendly community booking and payment app</p>
                     </div>
-                    <div class="col-md-6 col-sm-12 col-lg-6 service">
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 service">
                         <i class="fa fa-desktop"></i>
-                        <h4><strong>Web Uygulama</strong></h4>
-                        <p>Arama kurtarma ekibi yönetimi ve planlama uygulaması</p>
-                        <p>Rezervasyon ve ödeme uygulaması back-end ve front-end</p>
+                        <h4><strong>Web Application</strong></h4>
+                        <p>Search and rescue team management and planning application</p>
+                        <p>Reservation and payment application back-end and front-end</p>
                     </div>
-                    <div class="col-md-12 col-sm-12 col-lg-12 service">
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 service">
                         <i class="fa fa-solid fa-puzzle-piece"></i>
-                        <h4><strong>Sistem Entegrasyon</strong></h4>
-                        <p>Farklı veri sağlayıcılar, uluslararası sistemler, farklı radarlar, farklı silah sistemleri ve üçüncü parti uygulamalar ile entegrasyon</p>
+                        <h4><strong>System Integration</strong></h4>
+                        <p>Integration with different data providers, international systems, different radars, different
+                            weapon systems and third party frameworks</p>
                     </div>
+
             </div>
         </div>
     </div>
@@ -433,7 +457,7 @@
             <div class="col-md-8 col-md-offset-2">
 
                 <div class="section-title center">
-                    <h2>Bizimle <strong>iletişime</strong> geçin</h2>
+                    <h2>Feel free to <strong>contact us</strong></h2>
                     <div class="line">
                         <hr>
                     </div>
@@ -442,16 +466,16 @@
 
                 <form>
                     <div class="form-group">
-                        <label for="exampleInputEmail1">Email adresi</label>
+                        <label for="exampleInputEmail1">Email address</label>
                         <input type="email" class="form-control" id="exampleInputEmail1"
-                               placeholder="Mail adresinizi giriniz">
+                               placeholder="Enter email">
                     </div>
                     <div class="form-group">
-                        <label for="exampleInputEmail1">Mesajınız</label>
-                        <textarea class="form-control" rows="3" placeholder="Mesajınızı giriniz"></textarea>
+                        <label for="exampleInputEmail1">Message</label>
+                        <textarea class="form-control" rows="3" placeholder="Enter message"></textarea>
                     </div>
 
-                    <button type="submit" class="btn tf-btn btn-default">Gönder</button>
+                    <button type="submit" class="btn tf-btn btn-default">Submit</button>
                 </form>
             </div>
         </div>
