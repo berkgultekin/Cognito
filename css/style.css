@@ -167,34 +167,20 @@ ul, ol {
 }
 
 .logo-image {
-    width: 35%;
+    width: 60%;
 }
 
 .navbar-logo-image {
     height: 40px;
 }
 
-@media only screen and (max-width: 480px) {
-    .logo-image {
-        width: 90%;
-    }
-
-    .slogan-text-font-size {
-        font-size: 2vw;
-    }
-    .slogan-dot-font-size {
-        font-size: 1vw;
-    }
-}
-
-
 .slogan-text-font-size {
     display: inline;
     white-space: break-spaces;
-    font-size: 1vw;
+    font-size: 1em;
 }
 .slogan-dot-font-size {
-    font-size: 0.5vw;
+    font-size: 0.5em;
     color: #B79200;
 }
 
