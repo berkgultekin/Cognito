@@ -167,7 +167,7 @@ ul, ol {
 }
 
 .logo-image {
-    width: 60%;
+    width: 40%;
 }
 
 .navbar-logo-image {
@@ -182,6 +182,12 @@ ul, ol {
 .slogan-dot-font-size {
     font-size: 0.5em;
     color: #B79200;
+}
+
+@media only screen and (max-width: 480px) {
+    .logo-image {
+        width: 90%;
+    }
 }
 
 
