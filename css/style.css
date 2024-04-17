@@ -964,6 +964,10 @@ nav#footer .fnav {
   vertical-align: middle;
 }
 
+nav#footer .pull-centre {
+  margin-left: 30%
+}
+
 ul.footer-social li {
   display: inline-block;
   margin-right: 10px;
